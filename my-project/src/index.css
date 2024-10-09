@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.active{
+  background-color: white;
+  color: black;
+}
+
+/* Custom Scrollbar Styles */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 8px;
+ /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Background of the scrollbar track */
+  border-radius: 10px;
+  cursor: pointer;  /* Round edges */
+}
+
+::-webkit-scrollbar-thumb {
+  background: black; /* Color of the scrollbar thumb */
+  border-radius: 10px; /* Round edges */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(#880e00, #fa2912); /* Color when hovering over the thumb */
+}
